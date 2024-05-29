@@ -31,6 +31,7 @@ createApp({
                 }
             ],
             activeIndex: 0,
+            activeClass: 'active',
         }
     },
     methods: {
@@ -50,6 +51,7 @@ createApp({
         },
         
     },
+    
 
 }).mount('#app')
 
