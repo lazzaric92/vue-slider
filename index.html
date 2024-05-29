@@ -12,7 +12,7 @@
 <body>
     <div id="app">
         <div class="container">
-            <button id="backward" @click="moveBackward()">
+            <button id="backward" @click="moveBackward">
                 <span>&#11207;</span>
             </button>
             <div class="slider-wrapper" tabindex="0">
@@ -28,12 +28,12 @@
                     </div>
                 </template>
             </div>
-            <button id="forward" @click="moveForward()">
+            <button id="forward" @click="moveForward">
                 <span>&#11208;</span>
             </button>
             <div class="thumbnails">
-                <template v-for="(slide, index) in slides">
-                    <img :src="slide.image" :class="[(index === activeIndex) ? activeClass : '' ]">
+                <template v-for="(slide, index) in slides" :key="slide.id">
+                    <img :src="slide.image" :class="[(index === activeIndex) ? activeClass : '' ]" @click="isActive(index)">
                 </template>
             </div>
         </div>

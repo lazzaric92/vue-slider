@@ -49,7 +49,9 @@ createApp({
                 this.activeIndex--;
             }
         },
-        
+        isActive: function(index){
+            this.activeIndex = index;
+        }
     },
     
 
