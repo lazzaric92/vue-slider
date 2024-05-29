@@ -67,18 +67,20 @@ console.log(slides);
 */
 
 /* div.container content
+<button id="forward"><span>&#11207;</span></button>
 <div class="slider-wrapper" tabindex="0">
-                <div class="item">
-                    <img src="img/01.webp" alt="Spiderman" />
-                    <div class="text">
-                        <h3>Spiderman</h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit
-                            tempore aliquid deleniti aut
-                            veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum
-                            corporis.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <div class="item">
+        <img src="img/01.webp" alt="Spiderman" />
+        <div class="text">
+            <h3>Spiderman</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit
+                tempore aliquid deleniti aut
+                veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum
+                corporis.
+            </p>
+        </div>
+    </div>
+</div>
+<button id="backward"><span>&#11208;</span></button>
 */

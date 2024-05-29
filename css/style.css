@@ -31,3 +31,13 @@
     text-align: right;
     color: white;
 }
+
+button#forward,
+button#backward {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    padding: 0 .3rem;
+    margin: 0 .3rem;
+    cursor: pointer;
+}
