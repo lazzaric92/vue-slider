@@ -35,14 +35,14 @@ createApp({
         }
     },
     methods: {
-        moveForward: function(){           
+        nextSlide: function(){           
             if(this.activeIndex < this.slides.length - 1){
                 this.activeIndex++;
             } else {
                 this.activeIndex = 0;
             }
         },
-        moveBackward: function(){
+        prevSlide: function(){
             if(this.activeIndex === 0){
                 this.activeIndex = this.slides.length - 1
             } else {
